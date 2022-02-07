@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Park Simulation</title>
+    <meta name="description" content="A simple simulation for park guests and lines.">
+    <meta name="author" content="Jason Carpenter">
+
+    <meta property="og:title" content="Park Simulation">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://breadbored.com">
+    <meta property="og:description" content="A simple simulation for park guests and lines.">
+    <meta property="og:image" content="./park.png">
+
+    <link rel="icon" href="./favicon.ico">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+
+    <link rel="stylesheet" href="./css/styles.css?v=0.0.01">
+</head>
+
+<body>
+    <h1>Check the console...</h1>
+    <button onclick="takeStep()">Step Once</button>
+    <button onclick="multiStep(100)">Step 100</button>
+    <button onclick="updateView()">Update View</button>
+    <p>Step: <span class="step_count">0</span></p>
+    <div class="ride_log"></div>
+    
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/lodash.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+.ride_log > table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ride_log > table > tbody > tr:nth-child(2n) {
+    background-color: #dfdfdf;
+}
+
+.ride_log > table > tbody > tr > td,
+.ride_log > table > tbody > tr > th {
+    border: 1px solid #999;
+    padding: 0.5rem;
+    text-align: left;
+}

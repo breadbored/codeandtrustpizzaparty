@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./pizza2.jpg');
+    background-size: cover;
+    background-position:center center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    min-height: 100vh;
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+    color: #FFF;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #333;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+    color: #FFF;
+    margin-left: 1rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #333;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 2rem;
+}
+
+.catlogo {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    width: 634px;
+    max-width: 634px;
+    width: 100%;
+}
